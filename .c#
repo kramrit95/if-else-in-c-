@@ -1,0 +1,12 @@
+if (totalMarks >= 80) {
+2:	    MessageBox.Show("Got Higher First Class ");
+3:	}
+4:	else if (totalMarks >= 60) {
+5:	    MessageBox.Show("Got First Class ");
+6:	}
+7:	else if (totalMarks >= 40){
+8:	    MessageBox.Show("Just pass only");
+9:	}
+10:	else {
+11:	    MessageBox.Show("Failed");
+12:	}
